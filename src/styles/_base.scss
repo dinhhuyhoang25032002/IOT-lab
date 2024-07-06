@@ -1,0 +1,44 @@
+/*
+ * General styles
+ */
+@import "variables";
+
+body,
+html {
+  background-image: "#fff";
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: $base-size + 2px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content-container {
+  // .title {
+  //   text-align: center;
+  //   text-transform: uppercase;
+  //   font-weight: bold;
+  //   font-size: $base-size + 6px;
+  //   margin-top: 15px;
+  //   color: rgb(20, 20, 20);
+  //   font-family: "Roboto", sans-serif;
+  // }
+
+  // .content {
+  //   margin: 10px 30px;
+  //   box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.3019607843);
+  //   border-radius: 3px;
+  //   border-top: 1px solid rgba(0, 0, 0, 0.3019607843);
+  //   padding: 5px 12px;
+  //   border-left: 1px solid rgba(0, 0, 0, 0.3019607843);
+  //   font-family: "Roboto", sans-serif;
+  // }
+}

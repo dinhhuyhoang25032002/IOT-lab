@@ -1,0 +1,70 @@
+.power-src-container {
+    border: 5px solid black;
+    width: fit-content;
+    cursor: pointer;
+    height: fit-content;
+
+    .power-src-body {
+        border-bottom: 5px solid rgb(74, 73, 79);
+        border-top: 5px solid rgb(74, 73, 79);
+        border-right: 9px solid rgb(74, 73, 79);
+        border-left: 9px solid rgb(74, 73, 79);
+        width: fit-content;
+
+        .display-power-lcd {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            height: fit-content;
+            background: black;
+            text-align: end;
+            padding: 2px 25px;
+
+            .title-v {
+                font-size: 18px;
+                font-weight: 400;
+                font-family: "Changa", sans-serif;
+                // color: red;
+                width: 50px;
+                text-align: center;
+            }
+
+            .title-a {
+                font-size: 18px;
+                font-weight: 400;
+                font-family: "Changa", sans-serif;
+                //  color: rgb(11, 192, 224);
+                text-align: center;
+            }
+
+        }
+
+        .power-src-content {
+
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            width: fit-content;
+            background: rgb(11, 11, 11);
+            text-align: end;
+            padding: 2px 25px;
+
+            .title-v {
+
+                font-size: 18px;
+                font-weight: 400;
+                font-family: "Changa", sans-serif;
+                color: red;
+                text-align: center;
+            }
+
+            .title-a {
+                font-size: 18px;
+                font-weight: 400;
+                font-family: "Changa", sans-serif;
+                color: rgb(11, 192, 224);
+                text-align: center;
+            }
+        }
+    }
+}

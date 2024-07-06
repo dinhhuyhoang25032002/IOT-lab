@@ -1,0 +1,25 @@
+.btn-power-container {
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 9px solid green;
+
+    .btn-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background: red;
+        text-align: center;
+
+        i {
+            color: white;
+            font-size: 17px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.header-body {
+  background: rgb(207, 216, 234);
+  z-index: 10 !important;
+  // margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  .navbar {
+    .container-fluid {
+      padding-right: 15px;
+
+      .navbar-collapse {
+        .navbar-nav {
+          &.content-right {
+            gap: 15px;
+          }
+
+          .btn-login {
+            padding: 0px 13px;
+            border-radius: 5px;
+            border: 1px solid #161616;
+            font-family: "Roboto", sans-serif;
+
+            &:hover {
+              background: rgb(253, 251, 251);
+            }
+          }
+
+          .btn-signup {
+            padding: 5px 13px;
+            border-radius: 5px;
+            border: 1px solid #504d4d;
+            background: black;
+            color: white;
+            font-family: "Roboto", sans-serif;
+
+            &:hover {
+              opacity: 0.75;
+            }
+          }
+
+          .nav-link {
+            &.active {
+              color: rgb(67, 193, 166) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

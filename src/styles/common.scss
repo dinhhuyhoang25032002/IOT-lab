@@ -1,0 +1,44 @@
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.display-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.no-size-red {
+    border: 1px solid red;
+
+}
+
+.no-size-black {
+    border: 1px solid black;
+}
+
+.no-size-green {
+    border: 1 px solid green;
+}

@@ -1,0 +1,16 @@
+.container-dht11 {
+    width: 45px;
+    height: 95px;
+    background: url('../../assets//device-imge//DHT11.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .dot {
+        position: absolute;
+        font-size: 15px;
+        top: 64px;
+
+    }
+}

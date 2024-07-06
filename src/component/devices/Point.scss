@@ -1,0 +1,33 @@
+.container-point {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    .content-point {
+        width: 100%;
+        height: 100%;
+
+        .red {
+            width: 100%;
+            height: 100%;
+            background: red;
+            border-radius: 50%;
+        }
+
+        .green {
+            width: 100%;
+            height: 100%;
+            background: green;
+            border-radius: 50%;
+
+        }
+
+        .black {
+            width: 100%;
+            height: 100%;
+            background: black;
+            border-radius: 50%;
+        }
+    }
+}

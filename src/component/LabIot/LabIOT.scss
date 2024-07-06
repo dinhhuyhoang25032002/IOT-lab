@@ -1,0 +1,257 @@
+.lab-container {
+    padding: 40px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: visible;
+
+    .lab-body {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border: 1px solid orange;
+
+        .lab-content-right {
+            width: calc(100% - 750px);
+            height: 100%;
+            border: 1px solid orange;
+        }
+
+        .lab-content-left {
+            .footer-left {
+                width: 100%;
+                display: flex;
+
+                // justify-content: center;
+                // align-items: center;
+
+
+            }
+
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            padding: 0px 43px;
+            background: url(../../assets/bghomepage.jpg);
+            width: 750px;
+            height: 525px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 130%;
+            background-attachment: local;
+            background-position-x: center;
+            background-position-y: center;
+            background-origin: inherit;
+            background-blend-mode: multiply;
+
+            .container-power-up {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 8px;
+
+                .lcd-display {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    margin-top: -11px;
+                    padding-left: 70px;
+                    padding-right: 100px;
+
+
+                    .power-src-container {
+                        border: 5px solid black;
+                        width: fit-content;
+                        cursor: pointer;
+
+                        .power-src-body {
+                            border-bottom: 5px solid rgb(74, 73, 79);
+                            border-top: 5px solid rgb(74, 73, 79);
+                            border-right: 9px solid rgb(74, 73, 79);
+                            border-left: 9px solid rgb(74, 73, 79);
+                            width: fit-content;
+
+                            .display-power-lcd {
+                                display: flex;
+                                flex-direction: column;
+                                width: fit-content;
+                                height: fit-content;
+                                background: black;
+                                text-align: end;
+                                padding: 2px 25px;
+
+                                .title-v {
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    font-family: "Changa", sans-serif;
+                                    // color: red;
+                                }
+
+                                .title-a {
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    font-family: "Changa", sans-serif;
+                                    //  color: rgb(11, 192, 224);
+                                }
+
+                            }
+
+                            .power-src-content {
+                                display: flex;
+                                flex-direction: column;
+                                height: fit-content;
+                                width: fit-content;
+                                background: rgb(11, 11, 11);
+                                text-align: end;
+                                padding: 2px 25px;
+
+                                .title-v {
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    font-family: "Changa", sans-serif;
+                                    color: red;
+                                }
+
+                                .title-a {
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    font-family: "Changa", sans-serif;
+                                    color: rgb(11, 192, 224);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .btn-power-up {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 25px;
+                    gap: 70px;
+
+                    .fa-lightbulb {
+                        &.led-on {
+                            color: rgb(255, 182, 46);
+                        }
+                    }
+
+                    .btn-power {
+                        border-radius: 50%;
+                        width: 38px;
+                        height: 38px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 9px solid green;
+
+                        .btn-content {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 24px;
+                            height: 24px;
+                            border-radius: 50%;
+                            background: red;
+                            text-align: center;
+
+                            i {
+                                color: white;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+
+            .container-btn-keybroad {
+                margin-left: 45px;
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+                align-items: start;
+                width: 100%;
+                padding-left: 20px;
+                gap: 17px;
+
+                .connect-keybroad {
+                    margin-left: 59px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 93%;
+                    height: 190px;
+
+                    .btn-connect {
+                        height: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: end;
+                        margin-top: 50px;
+
+                        .btn-primary {
+                            width: 118px;
+
+                        }
+                    }
+
+                    // .keybroad-container {
+                    //     height: 95%;
+
+                    //     .keybroad-content {
+                    //         display: flex;
+                    //         gap: 10px;
+                    //         flex-direction: column;
+                    //         background: black;
+                    //         height: 139px;
+                    //         width: 119px;
+                    //         //    margin-top: 72px;
+                    //         justify-content: center;
+                    //         align-items: center;
+                    //         margin-left: 59px;
+
+                    //         .content-button {
+                    //             display: flex;
+                    //             gap: 10px;
+                    //             justify-content: center;
+                    //             align-items: center;
+
+                    //             .btn-style {
+                    //                 width: 24px;
+                    //                 height: 24px;
+                    //                 background: black;
+                    //                 color: white;
+                    //             }
+                    //         }
+                    //     }
+                    // }
+
+                }
+
+                // .btn-container {
+                //     display: flex;
+                //     align-items: center;
+                //     justify-content: center;
+                //     border-radius: 50%;
+                //     margin-left: 45px;
+                //     border: 10px solid gray;
+
+                //     .btn-switch {
+                //         width: 32px;
+                //         height: 32px;
+                //         border-radius: 50%;
+                //         background: rgb(164, 9, 9);
+
+                //         &.active {
+                //             background-color: rgb(255, 2, 2);
+                //         }
+                //     }
+                // }
+            }
+        }
+    }
+}

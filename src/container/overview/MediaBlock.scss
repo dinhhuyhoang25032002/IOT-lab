@@ -1,0 +1,190 @@
+.media-block {
+    height: fit-content;
+    width: 100%;
+    border: 2px dashed rgb(163, 163, 163);
+    text-align: center;
+
+    //  padding: 0px 5px;
+    .title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       // margin-bottom: 15px;
+        border-bottom: 2px dashed rgb(163, 163, 163);
+
+        .title {
+            text-align: center;
+            width: 70%;
+            display: flex;
+            justify-content: right;
+        }
+    }
+
+    .LCD-body {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 5px;
+
+        .LCD-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+
+            .text {
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .device-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .device-top {
+            display: flex;
+            justify-content: space-between;
+
+            .device-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 48%;
+                border: 2px dashed rgb(163, 163, 163);
+                border-left: none;
+
+                .point-container {
+                    display: flex;
+                    padding: 5px 0px;
+                    width: 80%;
+                    justify-content: space-between;
+
+                    .point-content {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0px;
+
+                        .text {
+                            font-size: 12px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .image-container {
+
+                    //border: 1px solid red;
+                    height: fit-content;
+                    width: fit-content;
+
+                    .img {
+                        object-fit: contain;
+                        object-position: center;
+                        image-rendering: auto;
+                        height: 88px;
+
+                        //    border: 1px solid red;
+
+
+                        cursor: pointer;
+
+                    }
+                }
+            }
+
+            .device-right {
+                width: 48%;
+                border: 2px dashed rgb(163, 163, 163);
+                border-right: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .image-container {
+                    height: fit-content;
+                    width: fit-content;
+                    //  border: 1px solid red;
+
+                    .img {
+                        object-fit: cover;
+                        object-position: center;
+                        image-rendering: auto;
+                        height: 88px;
+                        width: 100;
+                        //    border: 1px solid red;
+
+
+                        cursor: pointer;
+
+                    }
+                }
+
+                .point-container {
+                    display: flex;
+                    padding: 5px 0px;
+                    width: 80%;
+                    justify-content: space-between;
+
+                    .point-content {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0px;
+
+                        .text {
+                            font-size: 12px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+
+        .device-bottom {
+            border-top: 2px dashed rgb(163, 163, 163);
+            display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+
+            .image-container {
+                .img {
+                    object-fit: contain;
+                    object-position: center;
+                    image-rendering: auto;
+                    height: 119px;
+                    width: 200px;
+                    //    border: 1px solid red;
+                    cursor: pointer;
+                }
+            }
+
+            .point-container {
+                display: flex;
+                flex-direction: column;
+
+                padding-top: 20px;
+                // width: 80%;
+                justify-content: center;
+
+                .point-content {
+                    display: flex;
+                    // flex-direction: column;
+                    margin-bottom: 5px;
+                    gap: 10px;
+                    justify-content: flex-end;
+
+                    .text {
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

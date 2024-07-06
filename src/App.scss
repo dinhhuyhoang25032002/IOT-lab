@@ -1,0 +1,31 @@
+@import "./styles/styles.scss";
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.display-chart {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-app {
+    //  height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .header-container {
+        //  position: relative;
+    }
+
+    .main-container {
+        display: flex;
+        // height: 100%;
+        padding-top: 83px;
+        justify-content: center;
+        align-items: center;
+
+        .content-container {
+            // height: calc(100% - 61px);
+        }
+    }
+}

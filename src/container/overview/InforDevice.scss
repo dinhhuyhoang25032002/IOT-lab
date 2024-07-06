@@ -1,0 +1,38 @@
+.infor-container {
+    height: fit-content;
+    width: fit-content;
+    // border: 1px solid red;
+    position: absolute;
+    background-color: rgb(74, 151, 196);
+    right: 10px;
+    top: 0;
+    z-index: 5;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 8s ease-out;
+
+    &.open {
+        max-height: 100px;
+    }
+
+    .infor-content {
+        .title {
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            border: 1px solid #e5e5e5;
+            border-top: none;
+            padding: 0px 5px;
+            // .input-group {
+            //     .input-label {
+            //         height: fit-content !important;
+            //     }
+            // }
+
+            &:hover {
+                background-color: green;
+            }
+        }
+    }
+}

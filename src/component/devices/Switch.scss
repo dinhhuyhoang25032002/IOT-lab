@@ -1,0 +1,21 @@
+.btn-container {
+    display: flex;
+
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+    border: 10px solid rgb(34, 154, 201);
+
+    .btn-switch {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgb(164, 9, 9);
+
+        //border: 10px solid gray;
+
+        &.active {
+            background-color: rgb(255, 2, 2);
+        }
+    }
+}

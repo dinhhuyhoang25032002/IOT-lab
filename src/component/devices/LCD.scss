@@ -1,0 +1,30 @@
+.lcd-area {
+    height: 87px;
+
+
+    .lcd-border {
+        border: 8px solid green;
+        width: fit-content;
+        height: 94%;
+        cursor: pointer;
+
+        .lcd-container {
+            border: 5px solid black;
+            height: 100%;
+
+            .lcd-content {
+                height: 100%;
+                width: 150px;
+                font-family: "Changa", sans-serif;
+                font-weight: 400;
+                padding-left: 2px;
+                font-style: normal;
+                background: rgb(91, 244, 91);
+                font-size: 18px;
+                justify-content: left;
+                align-items: flex-start;
+
+            }
+        }
+    }
+}

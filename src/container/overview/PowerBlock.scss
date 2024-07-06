@@ -1,0 +1,67 @@
+.power-block {
+    width: fit-content;
+    height: fit-content;
+    border: 2px dashed rgb(163, 163, 163);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+
+    .title {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 5px;
+        border-bottom: 2px dashed rgb(163, 163, 163);
+        .content-title {
+            width: 67%;
+            display: flex;
+            justify-content: right;
+        }
+    }
+
+    .device {
+        position: relative;
+        display: flex;
+        gap: 100px;
+        justify-content: space-between;
+        padding: 0px 20px;
+
+        .device-left {
+            .lcd-btn-power {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+        .device-right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .led-body {
+                display: flex;
+                gap: 9px;
+            }
+
+            .point-body {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                .point-top {
+                    display: flex;
+                    gap: 15px;
+                }
+
+                .point-bottom {
+                    display: flex;
+                    gap: 15px;
+
+                }
+            }
+        }
+    }
+}

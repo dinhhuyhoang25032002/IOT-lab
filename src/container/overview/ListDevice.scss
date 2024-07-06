@@ -1,0 +1,56 @@
+.infor-list-device-container {
+    padding: 10px 10px;
+    background-color: #D8E2EE;
+
+    .infor-list-device-body {
+        background-color: #E9E7E8;
+        padding: 10px 10px;
+
+        .infor-list-device-content {
+            background-color: #D7E2E4;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .table-container {
+
+                .table {
+                    background: #1aa7c0 !important;
+                    width: 700px;
+
+                    .tbody-table {
+                        margin-bottom: 5px !important;
+                        width: 100% !important;
+
+                        .tr-table {
+                            margin-bottom: 15px;
+                            border-radius: 20px !important;
+                            color: red !important;
+                            background-color: #F7F7F7;
+                            border: 1px solid red;
+                            width: 100% !important;
+                            // th {
+                            //     background-color: #F7F7F7;
+                            // }
+
+                            // td {
+                            //     background-color: #F7F7F7;
+                            // }
+                        }
+                    }
+
+
+                }
+            }
+
+            .title {
+                font-size: 20px;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
